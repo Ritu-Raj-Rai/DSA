@@ -9,7 +9,7 @@ for(String num: words){
   Collections.sort(keys, (a, b) -> {
             int freqCompare = map.get(b) - map.get(a);
             if (freqCompare == 0) {
-                return a.compareTo(b); // tie-breaker: alphabetical order
+                return a.compareTo(b);
             }
             return freqCompare;
         });
