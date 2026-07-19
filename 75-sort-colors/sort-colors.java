@@ -4,8 +4,8 @@ class Solution {
         int []xx= new int[3]; 
        for(int i =0;i<nums.length;i++){
           if(nums[i]==0) a++;
-          if(nums[i]==1) b++;
-          if(nums[i]==2) c++;
+          else if(nums[i]==1) b++;
+          else c++;
            
        }
         for(int i=0;i<a;i++){
