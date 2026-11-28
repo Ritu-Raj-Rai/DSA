@@ -9,7 +9,7 @@ class Solution {
            left=Math.max(left,map.get(s.charAt(right))+1);
            }
             map.put(s.charAt(right),right);
-            max=Math.max(max,right-left+1);
+   max=Math.max(max,right-left+1);
       }
 return max;
     }
